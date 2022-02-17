@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>[APP] Land of Risky Clicks</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div>
+    <form>
+      <label>Rows:</label>
+      <input type="text" id="rows_in" value=10></input>
+      <label>Cols:</label>
+      <input type="text" id="cols_in" value=10></input>
+      <label>Bombs:</label>
+      <input type="text" id="bombs_in" value=5></input>
+      <input type="button" value="create" id="create_btn"></input>
+    </form>
+    <form>
+      <input type="text" id="load_in"></input>
+      <input type="button" value="load" id="load_btn"></input>
+    </form>
+  </div>
+
+  <div id="text">
+  </div>
+
+  <table id="minefield">
+  </table>
+</body>
+
+<script src="app-script.js"></script>
+</html>
